@@ -33,20 +33,25 @@ Leaders will have some words about the day ahead.
 * Collect resources to start
 
 **9:20 - Begin setting up Pi / Arduino**
+__ Raspberry Pi 0__
 * Load micro SD card w/ Raspian
 * Establish internet connection
 * Configure SSH (headless) or connect keyboard and monitor
 * Install Python 3 or Java JDK
 
+__ Arduino __
+* Download Arduino IDE https://www.arduino.cc/en/main/software 
+* Verify sample in IDE to configure set up using tutorial on site. 
+
 **10:00 - Begin Solution Development**
 
 3 hours remaining. If you are behind on the above, we have SD card images to jump start you. 
 
-**10:30 - Checkpoint** 
+**10:45 - Checkpoint** 
 
 **11:00 - Lunch**
 
-**12:00 - Resume and Checkpoint**
+**12:00 - Resume**
 
 2 hours remaining. 
 
