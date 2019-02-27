@@ -33,13 +33,14 @@ Leaders will have some words about the day ahead.
 * Collect resources to start
 
 **9:20 - Begin setting up Pi / Arduino**
-__ Raspberry Pi 0__
+
+*Raspberry Pi 0*
 * Load micro SD card w/ Raspian
 * Establish internet connection
 * Configure SSH (headless) or connect keyboard and monitor
 * Install Python 3 or Java JDK
 
-__ Arduino __
+*Arduino*
 * Download Arduino IDE https://www.arduino.cc/en/main/software 
 * Verify sample in IDE to configure set up using tutorial on site. 
 
