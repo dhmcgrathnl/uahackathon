@@ -14,39 +14,43 @@ Until the new high school is built, finding available parking at UAHS will be a 
 
 Your solution will involve hardware, software, and cloud solution components. A simple curcuit will detect the presence of cars in parking spots in a model parking lot. The Raspberry Pi or Arduino will turn LED lights on or off based on the sensor data using a program you'll write. Then, with Blynk, you'll be able to see the parking lot status on your phone. Finally (if you get this far!) you'll use Alexa with Blynk to ask how many spots are available. 
 
-## Arduino Set Up
+## Hardware Set Up
 
-* Download Arduino IDE https://www.arduino.cc/en/main/software 
-* Verify sample in IDE to configure set up using tutorial on site. 
+You will choose to use either the Arduino micocontroller or the Raspberry Pi 0 mini computer as the 'brain' of your solution. If you are not sure which to choose, we recommend choosing the Raspberry Pi. 
 
-## Raspberry Pi 0 Set Up
+### Raspberry Pi 0 Set Up
 For the below steps you will be writing in files on the root of a linux file system as interpreted by windows. Rasbian picks up these files when it boots.  **When editing these files, make sure you use 'lf' line endings as opposed to 'crlf'**.  If you use VSCode you will see this as a drop down in the bottom right hand corner of the editor.  Other editors have similar options.
  
-### Flashing the SD Card
+#### Flashing the SD Card
 Follow the instructions on [this page](https://styxit.com/2017/03/14/headless-raspberry-setup.html) to get the OS loaded.  
 * When you are downloading the OS, choose **Rasbian Lite**. 
 * This will also have you setup a wifi connection and place a marker file to start an ssh server. Here is a [Sample WPA file](https://github.com/kamahl437/hackfiles/blob/master/wpa_supplicant.conf).
 
-#### Enabling Remote over USB
+##### Enabling Remote over USB
 This step is only necessary if you want to connect to the Pi over USB in the next section. 
 
 * Navigate to the part of the page that says 'Say Bonjour' and download, install the bonjour drivers on your laptop.
 * Navigate to 'Connect Your PC to Raspberry Pi Zero via USB' on [this page](https://www.makeuseof.com/tag/directly-connect-raspberry-pi-without-internet/) and follow their directions.
 
-### Remoting into the Pi
+#### Remoting into the Pi
 
 * Put the SD card in the Pi Zero and power the Pi on. 
 
-#### Connecting over USB
+##### Connecting over USB
 * Ensure that the Pi is connected on the the port marked `USB`. **You will not be able to connect over USB if you use the `PWR IN` port!**
 * On the laptop, run the command `ssh pi@raspberrypi.local` to connect. 
 * The password will be `raspberry`.
 
-#### Connecting over Wifi
+##### Connecting over Wifi
 
 * Work with your coach and the on-site admin to determine the IP address of your Pi. 
 * On the laptop, run the command `ssh pi@{pi ip address}` to connect. 
 * The password will be `raspberry`. 
+
+### Arduino Set Up
+
+* Download Arduino IDE https://www.arduino.cc/en/main/software 
+* Verify sample in IDE to configure set up using tutorial on site. 
 
 ## Writing Your Program
 
