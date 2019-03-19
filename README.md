@@ -56,19 +56,29 @@ network={
 
 ## Writing Your Program
 
+The simple program will get the sensor values and update the LED's accordingly. 
+
+### Raspberry Pi Program
+
 You may either write your program using Python or Java. Configuring the circuit support on the Pi with Java is a bit more complicated and involves building a tool from source. 
 
-### Python
+#### Python
 [Python Tutorial](https://raspberrypihq.com/making-a-led-blink-using-the-raspberry-pi-and-python/)
 
-### Java (Harder setup)
+#### Java (Harder setup)
 [Java Instructions](java.md)
+
+### Arduino
+
+You will write your program in C++. 
 
 ## Adding Blynk
 
 Blynk allows your Pi or Arduino to send the state of the circuit to The Cloud. From there, you can access it on your phone in the Blynk App, and integrate Amazon Alexa.  
 
-* Install the Blynk App on your phone. 
+* Install the Blynk App on your phone.
+* Create a new Blynk project. 
+* Update your program to use HTTP with Blynk's API to update Blynk LEDs based on the circut sensor values. 
 
 ### Resources
 
