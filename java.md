@@ -1,6 +1,6 @@
 # Java Instructions
 
-## Setting Up Java Runtime on the Pi
+## Java Runtime on Pi Set Up
 
 * To install Java on the Pi, run the following command on the Pi: 
 `sudo apt-get install oracle-java8-jdk`
@@ -17,7 +17,7 @@ The following shouldn't be necessary and should only be done if problems are fou
 
 Wiring support for the Raspberry Pi comes via the [Wiring Pi project](http://wiringpi.com/download-and-install/). Check out the code and build it. 
 
-## Setting Up The Java Dev Environment on the Laptop
+## Java Development Environment on Laptop Set Up
 
 If not already present, Java and a Java IDE are needed on the workstation laptops. 
 * Install the Java JDK (8 or similar) if it is not already installed. 
@@ -47,7 +47,7 @@ Add to pom.xml file:
   </dependencies>
 ```
 
-## Writing the Code 
+## Writing the Program
 
 The code is not provided, but here is a sample that might be useful: 
 
