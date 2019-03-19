@@ -23,7 +23,7 @@ For the below steps you will be writing in files on the root of a linux file sys
 #### Flashing the SD Card
 Follow the instructions on [this page](https://styxit.com/2017/03/14/headless-raspberry-setup.html) to get the OS loaded.  
 * When you are downloading the OS, choose **Rasbian Lite**. 
-* This will also have you setup a wifi connection and place a marker file to start an ssh server. Here is a sample `wpa_supplicant.conf` file: 
+* Per the article, you will need to set up a wifi connection and place a marker file to start an ssh server. Here is a sample `wpa_supplicant.conf` file: 
 
 ```
 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
@@ -37,8 +37,7 @@ network={
 }
 ```
 
-#### Enabling Remote over USB
-This step is only necessary if you want to connect to the Pi over USB in the next section. 
+If you want to connect to the Pi over USB in the next section, you will also need to complete these steps: 
 
 * Navigate to the part of the page that says 'Say Bonjour' and download, install the bonjour drivers on your laptop.
 * Navigate to 'Connect Your PC to Raspberry Pi Zero via USB' on [this page](https://www.makeuseof.com/tag/directly-connect-raspberry-pi-without-internet/) and follow their directions.
