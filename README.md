@@ -2,8 +2,7 @@
 
 ## Table of Contents
 1. [Challenge Statement](#Challenge-statement)
-1. [Arduinio Set Up](#Arduino-set-up)
-1. [Raspberry Pi Set Up](#Raspberry-pi-0-set-up)
+1. [Hardware Set Up](#Hardware-Set-up)
 1. [Writing Your Program](#Writing-Your-Program)
 1. [Adding Blynk](#Adding-Blynk)
 1. [Adding Alexa](#Adding-Alexa)
