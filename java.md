@@ -84,7 +84,7 @@ public class ParkingSensor {
 }
 ```
 
-## Running Your Code
+## Running The Program on the Pi
 
 * Export the Java program as a runnable JAR file with the libraries bundled in.
 * Move the JAR file over to the Raspberry Pi using SCP:
