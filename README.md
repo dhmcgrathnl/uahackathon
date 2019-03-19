@@ -51,8 +51,14 @@ network={
 
 ### Arduino
 
-* Download Arduino IDE https://www.arduino.cc/en/main/software 
-* Verify sample in IDE to configure set up using tutorial on site. 
+#### Setup
+* Download Arduino IDE https://www.arduino.cc/en/main/software  
+
+#### Verify setup
+Verify that the Arduino is setup properly by loading a sample program onto it:
+*  Connect the Arduino to your computer, then in the Arduino IDE, click on file->examples->01.basics->Blink.  
+* This will open a simple program in a new window.  Click on the sketch menu and click upload.  This should upload a program that will blink the onboard LED every 1 second.  
+* Try changing the program so it blinks every 5 seconds, and re-upload
 
 ## Writing Your Program
 
