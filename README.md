@@ -1,4 +1,4 @@
-# UAHS Learn-a-thon Parking Challenge Guide
+# UAHS Learn-a-thon Parking Challenge Team Guide
 
 ## The Challenge
 
