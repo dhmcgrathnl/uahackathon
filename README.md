@@ -67,14 +67,14 @@ password will be `raspberry`.
 
 ## Writing the Code
 ### Python
-https://raspberrypihq.com/making-a-led-blink-using-the-raspberry-pi-and-python/
+[Python Tutorial](https://raspberrypihq.com/making-a-led-blink-using-the-raspberry-pi-and-python/)
 
 ### Java (Harder setup)
-https://github.com/kamahl437/hackfiles/blob/master/javasetup.md
+[Java Instructions](java.md)
 
 ## Adding Alexa
 
-
+Congrats on getting this far! For the next part, you will build the capability to ask Alexa how many spots are open in the parking lot. 
 
 ### Creating an AWS Lambda Function
 
