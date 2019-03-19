@@ -6,7 +6,7 @@
 1. [Arduinio Set Up](#Arduino-set-up)
 1. [Raspberry Pi Set Up](#Raspberry-pi-0-set-up)
 1. [Arduino Set Up](#Arduino-set-up)
-1. [Writing the Code](#Writing-the-code)
+1. [Writing Your Program](#Writing Your Program)
 1. [Adding Alexa](#Adding-Alexa)
 
 ## Challenge Problem Statement
@@ -65,7 +65,10 @@ If using over usb type:
 
 password will be `raspberry`.
 
-## Writing the Code
+## Writing Your Program
+
+You may either write your program using Python or Java. Configuring the circuit support on the Pi with Java is a bit more complicated and involves building a tool from source. 
+
 ### Python
 [Python Tutorial](https://raspberrypihq.com/making-a-led-blink-using-the-raspberry-pi-and-python/)
 
