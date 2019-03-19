@@ -1,7 +1,7 @@
 # UAHS Learn-a-thon Parking Challenge Team Guide
 
 ## Table of Contents
-1. [Problem Statement](#UAHS-Learn-a-thon-Parking-Challenge)
+1. [Challenge Statement](#Challenge-statement)
 1. [Arduinio Set Up](#Arduino-set-up)
 1. [Raspberry Pi Set Up](#Raspberry-pi-0-set-up)
 1. [Arduino Set Up](#Arduino-set-up)
@@ -9,7 +9,7 @@
 1. [Adding Blynk](#Adding-Blynk)
 1. [Adding Alexa](#Adding-Alexa)
 
-## Challenge Problem Statement
+## Challenge Statement
 
 With the new parking changes, finding available parking will be a challenge at UAHS. Your challenge: *build a model parking lot with available parking sensors to help drivers find open spots.* 
 
