@@ -10,7 +10,7 @@
 
 ## Challenge Statement
 
-With the new parking changes, finding available parking will be a challenge at UAHS. Your challenge: *build a model parking lot with available parking sensors to help drivers find open spots.* 
+Until the new high school is built, finding available parking at UAHS will become a challenge. You have been asked to build a proof-of-concept solution with the latest technology to help make parking easier. Your challenge is: *build a model parking lot with parking sensors to help drivers find open parking spots.* 
 
 Your solution will involve hardware, software, and cloud solution components. A simple curcuit will detect the presence of cars in parking spots in a model parking lot. The Raspberry Pi or Arduino will turn LED lights on or off based on the sensor data using a program you'll write. Then, with Blynk, you'll be able to see the parking lot status on your phone. Finally (if you get this far!) you'll use Alexa with Blynk to ask how many spot sare open. 
 
