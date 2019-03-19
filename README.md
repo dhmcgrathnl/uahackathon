@@ -26,30 +26,29 @@ For the below steps you will be writing in files on the root of a linux file sys
 ### Flashing the SD Card
 Follow the instructions on [this page](https://styxit.com/2017/03/14/headless-raspberry-setup.html) to get the OS loaded.  
 * When you are downloading the OS, choose **Rasbian Lite**. 
-* This will also have you setup a wifi connection and place a  marker file to start an ssh server. Here is a [Sample WPA file](https://github.com/kamahl437/hackfiles/blob/master/wpa_supplicant.conf).
+* This will also have you setup a wifi connection and place a marker file to start an ssh server. Here is a [Sample WPA file](https://github.com/kamahl437/hackfiles/blob/master/wpa_supplicant.conf).
 
-
-### Enabling Remote over USB and IP Detection
-After you have an os but before you take the card out, use these directions to to enable network over USB.
+#### Enabling Remote over USB
+This step is only necessary if you want to connect to the Pi over USB in the next section. 
 
 * Navigate to the part of the page that says 'Say Bonjour' and download the bonjour drivers.
 * Navigate to 'Connect Your PC to Raspberry Pi Zero via USB' on [this page](https://www.makeuseof.com/tag/directly-connect-raspberry-pi-without-internet/) and follow their directions.
 
 ### Remoting into the Pi
 
-* Take the card out and insert it in to your pi zero.  
-* Insert a usb cable in to the port marked usb (not 'pwr in').
-* If using over wifi get your ip address from the network admin and type:
+* Put the SD card in the Pi Zero and power the Pi on. 
 
-`ssh pi@{pi ip address}`
+#### Connecting over USB
+* Ensure that the Pi is connected on the the port marked `USB`. **You will not be able to connect over USB if you use the `PWR IN` port!**
+* On the laptop, run the command `ssh pi@raspberrypi.local` to connect. 
+* The password will be `raspberry`.
 
-password will be `raspberry`
+#### Connecting over Wifi
 
-If using over usb type:
+* Work with your coach and the on-site admin to determine the IP address of your Pi. 
+* On the laptop, run the command `ssh pi@{pi ip address}` to connect. 
+* The password will be `raspberry`. 
 
-`ssh pi@raspberrypi.local`
-
-password will be `raspberry`.
 
 ## Writing Your Program
 
