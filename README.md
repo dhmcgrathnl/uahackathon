@@ -89,7 +89,7 @@ The lambda function is what the skill calls when invoked. It will be where the c
 
 The Alexa Skill is where Alexa is configured to interpret commands. The 'fact skill' template will be used as a starting point, then customized for this project. 
 
-1. Log in to [Amazon Alexa Developer Portal](http://developer.amazon.com/alexa). Username: `uaschoolslearnathon` password: (ask a coach)
+1. Log in to [Amazon Alexa Developer Portal](http://developer.amazon.com/alexa). Username: `uahslearnathon@gmail.com` password: (ask a coach)
 1. Scroll down and click `create a skill` button. 
 1. Click the `start a skill` button. 
 1. Click `create skill` button. 
