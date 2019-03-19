@@ -6,7 +6,7 @@
 1. [Arduinio Set Up](#Arduino-set-up)
 1. [Raspberry Pi Set Up](#Raspberry-pi-0-set-up)
 1. [Arduino Set Up](#Arduino-set-up)
-1. [Writing Your Program](#Writing Your Program)
+1. [Writing Your Program](#Writing-Your-Program)
 1. [Adding Alexa](#Adding-Alexa)
 
 ## Challenge Problem Statement
