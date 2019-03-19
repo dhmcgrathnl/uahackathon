@@ -4,7 +4,6 @@
 1. [Challenge Statement](#Challenge-statement)
 1. [Arduinio Set Up](#Arduino-set-up)
 1. [Raspberry Pi Set Up](#Raspberry-pi-0-set-up)
-1. [Arduino Set Up](#Arduino-set-up)
 1. [Writing Your Program](#Writing-Your-Program)
 1. [Adding Blynk](#Adding-Blynk)
 1. [Adding Alexa](#Adding-Alexa)
@@ -48,7 +47,6 @@ This step is only necessary if you want to connect to the Pi over USB in the nex
 * Work with your coach and the on-site admin to determine the IP address of your Pi. 
 * On the laptop, run the command `ssh pi@{pi ip address}` to connect. 
 * The password will be `raspberry`. 
-
 
 ## Writing Your Program
 
