@@ -24,7 +24,7 @@ For the below steps you will be writing in files on the root of a linux file sys
 Follow the instructions on [this page](https://styxit.com/2017/03/14/headless-raspberry-setup.html) to get the OS loaded.  
 * When you are downloading the OS, choose **Rasbian Lite**. 
 
-#### Configuring the Image
+#### Configuring the Boot Partition
 * Per the article above, you will need to set up a wifi connection and place a marker file to start an ssh server. Here is a sample `wpa_supplicant.conf` file: 
 
 ```
