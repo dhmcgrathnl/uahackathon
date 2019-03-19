@@ -18,7 +18,7 @@ Your solution will involve hardware, software, and cloud solution components. A 
 
 You will choose to use either the Arduino micocontroller or the Raspberry Pi 0 mini computer as the 'brain' of your solution. If you are not sure which to choose, we recommend choosing the Raspberry Pi. 
 
-### Raspberry Pi 0 Set Up
+### Raspberry Pi 0
 For the below steps you will be writing in files on the root of a linux file system as interpreted by windows. Rasbian picks up these files when it boots.  **When editing these files, make sure you use 'lf' line endings as opposed to 'crlf'**.  If you use VSCode you will see this as a drop down in the bottom right hand corner of the editor.  Other editors have similar options.
  
 #### Flashing the SD Card
@@ -26,7 +26,7 @@ Follow the instructions on [this page](https://styxit.com/2017/03/14/headless-ra
 * When you are downloading the OS, choose **Rasbian Lite**. 
 * This will also have you setup a wifi connection and place a marker file to start an ssh server. Here is a [Sample WPA file](https://github.com/kamahl437/hackfiles/blob/master/wpa_supplicant.conf).
 
-##### Enabling Remote over USB
+#### Enabling Remote over USB
 This step is only necessary if you want to connect to the Pi over USB in the next section. 
 
 * Navigate to the part of the page that says 'Say Bonjour' and download, install the bonjour drivers on your laptop.
@@ -47,7 +47,7 @@ This step is only necessary if you want to connect to the Pi over USB in the nex
 * On the laptop, run the command `ssh pi@{pi ip address}` to connect. 
 * The password will be `raspberry`. 
 
-### Arduino Set Up
+### Arduino
 
 * Download Arduino IDE https://www.arduino.cc/en/main/software 
 * Verify sample in IDE to configure set up using tutorial on site. 
@@ -115,6 +115,3 @@ In the Alexa Developer Console, select the `Test` tab at the top.
 You can test in your browser using the Alexa Simulator. Use the microphone button to talk to Alexa to test the skill, or type a user's words into the box on the left.
 
 To test on the device, ensure that `Skill testing is enabled in` is set to `Development`. 
-
-
-
