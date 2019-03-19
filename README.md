@@ -102,6 +102,13 @@ The Alexa Skill is where Alexa is configured to interpret commands. The 'fact sk
 
 Modify the fact skill in the Amazon Developer portal and in the AWS lambda to call the Blynk API. 
 
-### Testing the Skill in the Browser
+### Testing The Skill
 
-### Deploying the Skill to the Device
+In the Alexa Developer Console, select the `Test` tab at the top. 
+
+You can test in your browser using the Alexa Simulator. Use the microphone button to talk to Alexa to test the skill, or type a user's words into the box on the left.
+
+To test on the device, ensure that `Skill testing is enabled in` is set to `Development`. 
+
+
+
