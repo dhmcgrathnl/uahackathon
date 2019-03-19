@@ -68,7 +68,7 @@ You may either write your program using Python or Java. Configuring the circuit 
 #### Java (Harder setup)
 [Java Instructions](java.md)
 
-### Arduino
+### Arduino Program
 
 You will write your program in C++. 
 
@@ -78,7 +78,7 @@ Blynk allows your Pi or Arduino to send the state of the circuit to The Cloud. F
 
 * Install the Blynk App on your phone.
 * Create a new Blynk project. 
-* Update your program to use HTTP with Blynk's API to update Blynk LEDs based on the circut sensor values. 
+* Update your program to use HTTP with Blynk's API to set Blynk LED values based on the circut sensor values. 
 
 ### Resources
 
