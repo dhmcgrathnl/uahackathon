@@ -122,7 +122,7 @@ The Alexa Skill is where Alexa is configured to interpret commands. The 'fact sk
 
 ### Calling Blynk from the Lambda
 
-Modify the fact skill in the Amazon Developer portal and in the AWS lambda to call the Blynk API. 
+Modify the fact skill in the Amazon Developer portal and in the AWS lambda to call the Blynk API to get the LED statuses. Based on these, Alexa can report how many parking spots are available.  
 
 ### Testing The Skill
 
