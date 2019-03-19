@@ -23,7 +23,19 @@ For the below steps you will be writing in files on the root of a linux file sys
 #### Flashing the SD Card
 Follow the instructions on [this page](https://styxit.com/2017/03/14/headless-raspberry-setup.html) to get the OS loaded.  
 * When you are downloading the OS, choose **Rasbian Lite**. 
-* This will also have you setup a wifi connection and place a marker file to start an ssh server. Here is a [Sample WPA file](https://github.com/kamahl437/hackfiles/blob/master/wpa_supplicant.conf).
+* This will also have you setup a wifi connection and place a marker file to start an ssh server. Here is a sample `wpa_supplicant.conf` file: 
+
+```
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
+country=US
+
+network={
+    ssid="ssid"
+    psk="password"
+    key_mgmt=WPA-PSK
+}
+```
 
 #### Enabling Remote over USB
 This step is only necessary if you want to connect to the Pi over USB in the next section. 
