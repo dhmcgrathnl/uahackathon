@@ -51,9 +51,9 @@ After you have an os but before you take the card out, use these directions to t
 
 ### Remoting into the Pi
 
-*Take the card out and insert it in to your pi zero.  
-*Insert a usb cable in to the port marked usb (not 'pwr in').
-*If using over wifi get your ip address from the network admin and type:
+* Take the card out and insert it in to your pi zero.  
+* Insert a usb cable in to the port marked usb (not 'pwr in').
+* If using over wifi get your ip address from the network admin and type:
 
 `ssh pi@{pi ip address}`
 
