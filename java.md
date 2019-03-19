@@ -15,9 +15,7 @@ The following shouldn't be necessary and should only be done if problems are fou
 
 ### Wiring Support
 
-Wiring support for the Raspberry Pi comes via the [Wiring Pi project](http://wiringpi.com/download-and-install/). 
-
-Check out the code and build it. 
+Wiring support for the Raspberry Pi comes via the [Wiring Pi project](http://wiringpi.com/download-and-install/). Check out the code and build it. 
 
 ## Setting Up The Java Dev Environment on the Laptop
 
@@ -88,11 +86,11 @@ public class ParkingSensor {
 
 ## Running Your Code
 
-* Export as a runnable JAR file with the libraries packed in.
-* Move your Java JAR file over to the Raspberry Pi using:
+* Export the Java program as a runnable JAR file with the libraries bundled in.
+* Move the JAR file over to the Raspberry Pi using SCP:
 
 `scp ParkingSensor.jar pi@raspberrypi.local:ParkingSensor.jar`
 
-* Run the program with: 
+* Run the program: 
 
 `sudo java -jar ParkingSensor.jar`
