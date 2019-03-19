@@ -23,9 +23,9 @@ For the below steps you will be writing in files on the root of a linux file sys
 ![Image of VSCode](assets/vscode.png)
 Line ending option in VS Code
  
-#### Flashing the SD Card
-Follow the instructions on [this page](https://styxit.com/2017/03/14/headless-raspberry-setup.html) to get the OS loaded.  
-* When you are downloading the OS, choose **Rasbian Lite**. 
+#### Flashing the SD Card 
+Read the rest of the section before beginning (all the way down until the Arduino section) for important notes on the instructions.  Follow the instructions on [this page](https://styxit.com/2017/03/14/headless-raspberry-setup.html) to get the OS loaded.  
+* When you are downloading the OS, choose **Rasbian Stretch Lite**. 
 
 #### Configuring the Boot Partition
 * Per the article above, you will need to set up a wifi connection and place a marker file to start an ssh server. Here is a sample `wpa_supplicant.conf` file: 
