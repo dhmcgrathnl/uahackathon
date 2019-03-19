@@ -1,4 +1,4 @@
-# Java Program Instructions
+# Java Instructions
 
 ## Setting Up Java Runtime on the Pi
 
