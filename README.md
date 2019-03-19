@@ -2,7 +2,7 @@
 
 ## The Challenge
 
-With the new parking changes, finding available parking will be a challenge at UAHS. Your challenge: *build a hardware or software model solution that can help drivers find available parking spots!*
+With the new parking changes, finding available parking will be a challenge at UAHS. Your challenge: *build a model parking lot with available parking sensors to help drivers find open spots.*
 
 ## Table of Contents
 1. [Problem Statement](#UAHS-Learn-a-thon-Parking-Challenge)
@@ -20,14 +20,14 @@ There are two hardware platform options:
 1. Raspberry Pi Zero W
 1. Arduino Uno
 
-Available hardware: 
+Circuit parts: 
 * LED lights
 * Object Proximity sensors 
 * Amazon Echo Dots (may need to be shared) 
 * Micro USB cables
 * HDMI mini cables
 
-Available software: 
+Software: 
 * Blynk platform https://www.blynk.cc/ 
 
 ## Arduino Set Up
@@ -75,7 +75,11 @@ https://github.com/kamahl437/hackfiles/blob/master/javasetup.md
 
 ## Adding Alexa
 
-### Creating a lambda
+
+
+### Creating an AWS Lambda Function
+
+The lambda function is what the skill calls when invoked. It will be where the call is made to the Blynk API to get the sensor data. The Alexa 'fact skill' template will be used as a starting point, then customized for this project. 
 
 1. Log in to the [Nationwide AWS Console](https://blue-eagle.signin.aws.amazon.com/console). Username: `alexa-hacker` password (ask a coach)
 1. Click `Services` at the top left. 
@@ -90,7 +94,9 @@ https://github.com/kamahl437/hackfiles/blob/master/javasetup.md
 1. Scroll down and configure the trigger from the last step. Disable skill verification. Save. 
 1. Note the ARN in the top right of the page. This will be used to associate the skill. 
 
-### Creating a skill
+### Creating an Alexa Skill
+
+The Alexa Skill is where Alexa is configured to interpret commands. The 'fact skill' template will be used as a starting point, then customized for this project. 
 
 1. Log in to [Amazon Alexa Developer Portal](http://developer.amazon.com/alexa). Username: `uaschoolslearnathon` password: (ask a coach)
 1. Scroll down and click `create a skill` button. 
@@ -100,3 +106,11 @@ https://github.com/kamahl437/hackfiles/blob/master/javasetup.md
 1. Select `Fact skill` template. 
 1. On the left menu, select `endpoint`. 
 1. Add the ARN from the lambda in the default region box and hit `Save Endpoints` in the top left. 
+
+### Calling Blynk from the Lambda
+
+Modify the fact skill in the Amazon Developer portal and in the AWS lambda to call the Blynk API. 
+
+### Testing the Skill in the Browser
+
+### Deploying the Skill to the Device
