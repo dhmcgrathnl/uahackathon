@@ -65,9 +65,13 @@ You may either write your program using Python or Java. Configuring the circuit 
 
 Blynk allows your Pi or Arduino to send the state of the circuit to The Cloud. From there, you can access it on your phone in the Blynk App, and integrate Amazon Alexa.  
 
-[Blynk site](https://www.blynk.cc/)
-
 * Install the Blynk App on your phone. 
+
+### Resources
+
+[Blynk Intro Guide](http://docs.blynk.cc/#intro) – Provides basics of what Blynk is, how to setup an account, and how to build a new project.  You can stop at the “Getting started with Hardware” section. 
+
+[Blynk API Info on Apiary](https://blynkapi.docs.apiary.io/#) - Provides an interactive interface to make api calls against Blynk.  Once you’ve created an account, and obtained an auth token, you can test functionality here
 
 ## Adding Alexa
 
