@@ -1,9 +1,5 @@
 # UAHS Learn-a-thon Parking Challenge Team Guide
 
-## Challenge Problem Statement
-
-With the new parking changes, finding available parking will be a challenge at UAHS. Your challenge: *build a model parking lot with available parking sensors to help drivers find open spots.*
-
 ## Table of Contents
 1. [Problem Statement](#UAHS-Learn-a-thon-Parking-Challenge)
 1. [Hardware](#Hardware)
@@ -13,6 +9,9 @@ With the new parking changes, finding available parking will be a challenge at U
 1. [Writing the Code](#Writing-the-code)
 1. [Adding Alexa](#Adding-Alexa)
 
+## Challenge Problem Statement
+
+With the new parking changes, finding available parking will be a challenge at UAHS. Your challenge: *build a model parking lot with available parking sensors to help drivers find open spots.*
 
 ## Hardware
 
