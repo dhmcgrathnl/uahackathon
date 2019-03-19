@@ -68,7 +68,7 @@ You may either write your program using Python or Java. Configuring the circuit 
 #### Java (Harder setup)
 [Java Instructions](java.md)
 
-### Arduino
+### Arduino Program
 
 You will write your program in C++. 
 
