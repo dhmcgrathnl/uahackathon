@@ -108,9 +108,9 @@ The lambda function is what the skill calls when invoked. It will be where the c
 1. Search for `alexa` and choose the the `factskill` blueprint.
 1. **Make sure you are in the N.Virgina region!** (top-right)
 1. Name the function. 
-1. Choose `lambda_execute_lambda` existing role. 
+1. Choose `lambda_execute_lambda` existing role and click `create function`
 1. Under configuration, add a trigger using `Alexa Skills Kit`. 
-1. Scroll down and configure the trigger from the last step. Disable skill verification. Save. 
+1. Scroll down and configure the trigger from the last step. Disable skill ID verification. Add. Save. 
 1. Note the ARN in the top right of the page. This will be used to associate the skill. 
 
 ### Creating an Alexa Skill
