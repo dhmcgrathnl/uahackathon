@@ -31,7 +31,7 @@ Follow the instructions on [this page](https://styxit.com/2017/03/14/headless-ra
 #### Enabling Remote over USB
 This step is only necessary if you want to connect to the Pi over USB in the next section. 
 
-* Navigate to the part of the page that says 'Say Bonjour' and download the bonjour drivers.
+* Navigate to the part of the page that says 'Say Bonjour' and download, install the bonjour drivers on your laptop.
 * Navigate to 'Connect Your PC to Raspberry Pi Zero via USB' on [this page](https://www.makeuseof.com/tag/directly-connect-raspberry-pi-without-internet/) and follow their directions.
 
 ### Remoting into the Pi
