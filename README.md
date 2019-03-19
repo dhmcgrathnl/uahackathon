@@ -60,11 +60,15 @@ You may either write your program using Python or Java. Configuring the circuit 
 
 ## Adding Blynk
 
+Blynk allows your Pi or Arduino to send the state of the circuit to The Cloud. From there, you can access it on your phone in the Blynk App, and integrate Amazon Alexa.  
+
 [Blynk site](https://www.blynk.cc/)
+
+* Install the Blynk App on your phone. 
 
 ## Adding Alexa
 
-Congrats on getting this far! For the next part, you will build the capability to ask Alexa how many spots are open in the parking lot. 
+You will build the capability to ask Alexa how many spots are open in the parking lot. 
 
 ### Creating an AWS Lambda Function
 
