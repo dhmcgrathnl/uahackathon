@@ -41,8 +41,9 @@ network={
 
 If you want to connect to the Pi over USB in the next section, you will also need to complete these steps: 
 
-* Navigate to the part of the page that says 'Say Bonjour' and download, install the bonjour drivers on your laptop.
 * Navigate to 'Connect Your PC to Raspberry Pi Zero via USB' on [this page](https://www.makeuseof.com/tag/directly-connect-raspberry-pi-without-internet/) and follow their directions.
+* Navigate to the part of the page that says 'Say Bonjour' and download, install the bonjour drivers on your laptop.
+
 
 #### Remoting into the Pi
 
