@@ -1,13 +1,13 @@
 # UAHS Learn-a-thon Parking Challenge
 
-With the new parking changes, finding available parking will be a challenge at UAHS. 
+## The Challenge
 
-Your challenge: *build a hardware or software model solution that can help drivers find available parking spots!*
+With the new parking changes, finding available parking will be a challenge at UAHS. Your challenge: *build a hardware or software model solution that can help drivers find available parking spots!*
 
 ## Table of Contents
 1. [Problem Statement](#UAHS-Learn-a-thon-Parking-Challenge)
-1. [Table of Contents]()
-1. [Available Resources](#Hardware)
+1. [Hardware](#Hardware)
+1. [Arduinio Set Up](#Arduino-set-up)
 1. [Raspberry Pi Set Up](#Raspberry-pi-0-set-up)
 1. [Arduino Set Up](#Arduino-set-up)
 1. [Writing the Code](#Writing-the-code)
@@ -29,15 +29,8 @@ Available hardware:
 Available software: 
 * Blynk platform https://www.blynk.cc/ 
 
-## ? 
+## Arduino Set Up
 
-*Raspberry Pi 0*
-* Load micro SD card w/ Raspian
-* Establish internet connection
-* Configure SSH (headless) or connect keyboard and monitor
-* Install Python 3 or Java JDK
-
-*Arduino*
 * Download Arduino IDE https://www.arduino.cc/en/main/software 
 * Verify sample in IDE to configure set up using tutorial on site. 
 
