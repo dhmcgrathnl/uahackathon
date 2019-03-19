@@ -18,7 +18,7 @@ Your solution will involve hardware, software, and cloud solution components. A 
 You will choose to use either the Arduino micocontroller or the Raspberry Pi 0 mini computer as the 'brain' of your solution. If you are not sure which to choose, we recommend choosing the Raspberry Pi. 
 
 ### Raspberry Pi 0
-For the below steps you will be writing in files on the root of a linux file system as interpreted by windows. Rasbian picks up these files when it boots.  **When editing these files, make sure you use 'lf' line endings as opposed to 'crlf'**.  If you use VSCode you will see this as a drop down in the bottom right hand corner of the editor.  Other editors have similar options.
+For the below steps you will be writing in files on the root of a linux file system as interpreted by windows. Rasbian picks up these files when it boots.  **When editing these files, make sure you use 'lf' (Linux) line endings as opposed to 'crlf' (Windows) line endings**.  If you don't have a code editor preference, we recommend you use [VSCode](https://code.visualstudio.com/), which shows you the line endings in drop down in the bottom right hand corner of the editor.  Other editors have similar options.
  
 #### Flashing the SD Card
 Follow the instructions on [this page](https://styxit.com/2017/03/14/headless-raspberry-setup.html) to get the OS loaded.  
