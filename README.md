@@ -13,22 +13,22 @@ Until the new high school is built, finding available parking at UAHS will be a 
 
 Your solution will involve hardware, software, and cloud solution components. A simple curcuit will detect the presence of cars in parking spots in a model parking lot. The Raspberry Pi or Arduino will turn LED lights on or off based on the sensor data using a program you'll write. Then, with Blynk, you'll be able to see the parking lot status on your phone. Finally (if you get this far!) you'll use Alexa with Blynk to ask how many spots are available. 
 
-## Hardware Set Up
+## Tasks
 
-You will choose to use either the Arduino micocontroller or the Raspberry Pi 0 mini computer as the 'brain' of your solution. If you are not sure which to choose, we recommend choosing the Raspberry Pi. 
+### Set up Raspberry Pi 
+In the following step you're going to set up a Raspberry Pi Zero which will be the 'brains' of your solution.  This will involve a few simple steps to copy and edit files onto an SD card that will then be inserted into the Raspberry Pi and booted.  Once the Raspberry Pi boots you'll be able to log on to the Pi to start writing the program that will control the lights.
 
-### Raspberry Pi 0
-For the below steps you will be writing in files on the root of a linux file system as interpreted by windows. Rasbian picks up these files when it boots.  **When editing these files, make sure you use 'lf' (Linux) line endings as opposed to 'crlf' (Windows) line endings**.  If you don't have a code editor preference, we recommend you use [VS Code](https://code.visualstudio.com/), which shows you the line endings in a drop down in the bottom right-hand corner of the editor.  Other editors have similar options.
+For the steps below, when editing a file on the SD Card  **make sure you use 'lf' (Linux) line endings as opposed to 'crlf' (Windows) line endings**.  We recommend you edit the files using [VS Code](https://code.visualstudio.com/), which shows you the line endings in a drop down in the bottom right-hand corner of the editor.  Other editors have similar options.
 
 ![Image of VSCode](assets/vscode.png)
 Line ending option in VS Code
  
 #### Flashing the SD Card 
-Read the rest of the section before beginning (all the way down until the Arduino section) for important notes on the instructions.  Follow the instructions on [this page](https://styxit.com/2017/03/14/headless-raspberry-setup.html) to get the OS loaded.  
-* When you are downloading the OS, choose **Rasbian Stretch Lite**. 
+You are about to follow a link to instructions on setting up the SD card.  Before you do that there are a couple of important things to note.  First, be sure to select the **Rasbian Stretch Lite** download option.  Secondly, use the sample wpa_supplicant.conf below instead of the what the page suggests.  Get the actual values for ssid and password from your coach.
 
-#### Configuring the Boot Partition
-* Per the article above, you will need to set up a wifi connection and place a marker file to start an ssh server. Here is a sample `wpa_supplicant.conf` file: 
+Okay, now you can follow the instructions on [this page](https://styxit.com/2017/03/14/headless-raspberry-setup.html) to get the OS loaded.  Just don't forget the notes! :)
+
+Our sample `wpa_supplicant.conf` file: 
 
 ```
 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
@@ -42,43 +42,37 @@ network={
 }
 ```
 
-#### Remoting into the Pi via Wifi
+#### Complete steps to boot Pi Zero
+* Remove the SD card from the laptop.
+* Put the SD card into the Pi zero.
+* Power up the Pi Zero using the USB cable in the Power slot (not USB).  This is the connector that is to the right when looking at the card.
 
-* Put the SD card in the Pi Zero and power the Pi on. 
+#### Login onto the Pi via Wifi
+
 * Work with your coach and the on-site admin to determine the IP address of your Pi. 
 * On the laptop, run the command `ssh pi@{pi ip address}` to connect. 
 * The password will be `raspberry`. 
 
-### Arduino
+#### You're done with the initialization of the Pi Zero for use!  
 
-#### Setup
-* Download Arduino IDE https://www.arduino.cc/en/main/software  
+Next you'll start programming the Pi Zero and integrating circuits.
 
-#### Verify setup
-Verify that the Arduino is setup properly by loading a sample program onto it:
-*  Connect the Arduino to your computer, then in the Arduino IDE, click on file->examples->01.basics->Blink.  
-* This will open a simple program in a new window.  Click on the sketch menu and click upload.  This should upload a program that will blink the onboard LED every 1 second.  
-* Try changing the program so it blinks every 5 seconds, and re-upload
+## Program the Raspberry Pi to get sensor values and update the LED's
 
-## Writing Your Program
+Write a program using Python that will interact with the Pi Zero to read the parking sensor and turn on and off the appropriate lights.  Don't worry if you don't know Python.  At the end of this section, we have a link to sample code that will make it easy to get started and your coaches will help you if you get stuck.
 
-The simple program will get the sensor values and update the LED's accordingly. If you aren't familiar with a breadboard, watch [this video](https://www.youtube.com/watch?v=fq6U5Y14oM4) to learn the basics
+During this step, you'll need to wire the breadboard with your lights and sensors.  If you aren't familiar with a breadboard, watch [this video](https://www.youtube.com/watch?v=fq6U5Y14oM4) to learn the basics.  
 
-### Raspberry Pi Program
+Now get started by following the steps in the sample program.  Once you have that working, you'll build on the sample program to complete the assignment.
 
-You may either write your program using Python or Java. Configuring the circuit support on the Pi with Java is a bit more complicated and involves building a tool from source. 
+Sample Python code for Raspberry Pi(https://raspberrypihq.com/making-a-led-blink-using-the-raspberry-pi-and-python/)
 
-#### Python
-[Python Tutorial](https://raspberrypihq.com/making-a-led-blink-using-the-raspberry-pi-and-python/)
+## Finish the program to complete the challenge
 
-#### Java (Harder setup)
-[Java Instructions](java.md)
+Once you have a light blinking you should be able to enhance the program to complete a sample parking lot with 3 parking spaces.  If you want to see an example of what that looks like ask you coach to show you the sample.
 
-### Arduino Program
-
-Follow [this tutorial](https://learn.adafruit.com/adafruit-arduino-lesson-2-leds/blinking-the-led) to build a basic circuit with an LED.  Ignore any reference to resistors, since we didn't provide you with any.  Using this as a starting point, try to incorporate the sensor and turn the LED on/off based on sensor activity
-
-
+## Done!  (not quite)
+You're done with the primary assignment but if you have time follow the remaining steps to create a simple smartphone app to detect if there are parking spots available.  
 
 ## Adding Blynk
 
