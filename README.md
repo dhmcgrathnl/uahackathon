@@ -131,9 +131,9 @@ The Alexa Skill is where Alexa is configured to interpret commands. The 'fact sk
 Modify the fact skill in the Amazon Developer portal and in the AWS lambda to call the Blynk API to get the LED statuses. Based on these, Alexa can report how many parking spots are available.  
 
 ### Testing The Skill
-
+Navigate to the `Build` tab and on the skill builder checklist on the right side, that build model is finished(green check mark), otherwise click build model.
 In the Alexa Developer Console, select the `Test` tab at the top. 
 
-You can test in your browser using the Alexa Simulator. Use the microphone button to talk to Alexa to test the skill, or type a user's words into the box on the left.
+You can test in your browser using the Alexa Simulator. Use the microphone button to talk to Alexa to test the skill, or type a user's words into the box on the left.  If testing the default code that was added say or type `tell me a fact`
 
 To test on the device, ensure that `Skill testing is enabled in` is set to `Development`. 
