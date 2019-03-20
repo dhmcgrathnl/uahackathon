@@ -62,7 +62,7 @@ Verify that the Arduino is setup properly by loading a sample program onto it:
 
 ## Writing Your Program
 
-The simple program will get the sensor values and update the LED's accordingly. 
+The simple program will get the sensor values and update the LED's accordingly. If you aren't familiar with a breadboard, watch [this video](https://www.youtube.com/watch?v=fq6U5Y14oM4) to learn the basics
 
 ### Raspberry Pi Program
 
