@@ -76,7 +76,9 @@ You may either write your program using Python or Java. Configuring the circuit 
 
 ### Arduino Program
 
-You will write your program in C++. 
+Follow [this tutorial](https://learn.adafruit.com/adafruit-arduino-lesson-2-leds/blinking-the-led) to build a basic circuit with an LED.  Ignore any reference to resistors, since we didn't provide you with any.  Using this as a starting point, try to incorporate the sensor and turn the LED on/off based on sensor activity
+
+
 
 ## Adding Blynk
 
@@ -91,6 +93,10 @@ Blynk allows your Pi or Arduino to send the state of the circuit to The Cloud. F
 [Blynk Intro Guide](http://docs.blynk.cc/#intro) – Provides basics of what Blynk is, how to setup an account, and how to build a new project.  You can stop at the “Getting started with Hardware” section. 
 
 [Blynk API Info on Apiary](https://blynkapi.docs.apiary.io/#) - Provides an interactive interface to make api calls against Blynk.  Once you’ve created an account, and obtained an auth token, you can test functionality here
+
+### Resources for Arduino
+
+[Installing Blynk for Arduino](https://www.youtube.com/watch?v=fgzvoan_3_w) - Provides instructions for setting up Blynk with Arduino, and connecting to the internet via USB
 
 ## Adding Alexa
 
