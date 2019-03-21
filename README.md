@@ -59,21 +59,27 @@ Next you'll start programming the Pi Zero and integrating circuits.
 
 ## Writing Your Program
 
-### Step 1 - Program the Raspberry Pi to get sensor values and update the LED's
-
 Write a program using Python that will interact with the Pi Zero to read the parking sensor and turn on and off the appropriate lights.  Don't worry if you don't know Python.  At the end of this section, we have a link to sample code that will make it easy to get started and your coaches will help you if you get stuck.
+
+We'll build the program (and the circuitry) in multiple steps, building on each step as we go.
 
 During this step, you'll need to wire the breadboard with your lights and sensors.  If you aren't familiar with a breadboard, watch [this video](https://www.youtube.com/watch?v=fq6U5Y14oM4) to learn the basics.  
 
-Now get started by following the steps in the sample program.  Once you have that working, you'll build on the sample program to complete the assignment.
+### Step 1 - Program the Raspberry Pi to blink an LED
+
+Let's start by following the steps in a sample program that will cause a single LED to blink.  Once you have that working, you'll build on the sample program to complete the assignment.
 
 Sample Python code for Raspberry Pi(https://raspberrypihq.com/making-a-led-blink-using-the-raspberry-pi-and-python/)
 
-### Step 2 - Finish the program to complete the challenge
+### Step 2 - Enhance the program to get the sensor value and set the LED's appropriately for 1 parking spot.
 
-Once you have a light blinking you should be able to enhance the program to complete a sample parking lot with 3 parking spaces.  If you want to see an example of what that looks like ask you coach to show you the sample.
+Once you have an LED blinking you should be able to enhance the program to set the green and red LEDs based on the input from the presence sensor.  If you want to see an example of what that looks like ask your coach to show you the sample.
 
-### Step 3 - Done!  (not quite)
+### Step 3 - Enhance the program to get sensor value and set the LED's appropriately for all 3 parking spots.
+
+Once you have a one parking spot working, enhance the program to work for three parking spots.
+
+### Step 4 - Done!  (not quite)
 You're done with the primary assignment but if you have time follow the remaining steps to create a simple smartphone app to detect if there are parking spots available.  
 
 ## Adding Blynk
