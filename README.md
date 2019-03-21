@@ -148,5 +148,9 @@ To test on the device, ensure that `Skill testing is enabled in` is set to `Deve
 
 ## Additional Resources
 
+### Arduino
+If you prefer to use Arduino or Raspberry Pi, follow [these](arduino.md) instructions.
+
 ### Java
-If you prefer to use Java over Python, follow [these](java.md) instructions
+If you prefer to use Java over Python, follow [these](java.md) instructions.
+
