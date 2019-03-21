@@ -145,3 +145,8 @@ In the Alexa Developer Console, select the `Test` tab at the top.
 You can test in your browser using the Alexa Simulator. Use the microphone button to talk to Alexa to test the skill, or type a user's words into the box on the left.  If testing the default code that was added say or type `tell me a fact`
 
 To test on the device, ensure that `Skill testing is enabled in` is set to `Development`. 
+
+## Additional Resources
+
+### Java
+If you prefer to use Java over Python, follow [these](java.md) instructions
