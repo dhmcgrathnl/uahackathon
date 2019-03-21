@@ -63,7 +63,7 @@ Write a program using Python that will interact with the Pi Zero to read the par
 
 We'll build the program (and the circuitry) in multiple steps, building on each step as we go.
 
-During this step, you'll need to wire the breadboard with your lights and sensors.  If you aren't familiar with a breadboard, watch [this video](https://www.youtube.com/watch?v=fq6U5Y14oM4) to learn the basics.  
+During this exercise, you'll need to wire the breadboard with your lights and sensors.  If you aren't familiar with a breadboard, watch [this video](https://www.youtube.com/watch?v=fq6U5Y14oM4) to learn the basics.  
 
 ### Step 1 - Program the Raspberry Pi to blink an LED
 
