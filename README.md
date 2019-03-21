@@ -23,7 +23,7 @@ For the steps below, when editing a file on the SD Card  **make sure you use 'lf
 ![Image of VSCode](assets/vscode.png)
 Line ending option in VS Code
  
-#### Flashing the SD Card 
+#### Step 1 - Flashing the SD Card 
 You are about to follow a link to instructions on setting up the SD card.  Before you do that there are a couple of important things to note.  First, be sure to select the **Rasbian Stretch Lite** download option.  Secondly, use the sample wpa_supplicant.conf below instead of the what the page suggests.  Get the actual values for ssid and password from your coach.
 
 Okay, now you can follow the instructions on [this page](https://styxit.com/2017/03/14/headless-raspberry-setup.html) to get the OS loaded.  Just don't forget the notes! :)
@@ -42,24 +42,24 @@ network={
 }
 ```
 
-#### Complete steps to boot Pi Zero
+#### Step 2 - Complete steps to boot Pi Zero
 * Remove the SD card from the laptop.
 * Put the SD card into the Pi zero.
 * Power up the Pi Zero using the USB cable in the Power slot (not USB).  This is the connector that is to the right when looking at the card.
 
-#### Login onto the Pi via Wifi
+#### Step 3 - Login onto the Pi via Wifi
 
 * Work with your coach and the on-site admin to determine the IP address of your Pi. 
 * On the laptop, run the command `ssh pi@{pi ip address}` to connect. 
 * The password will be `raspberry`. 
 
-#### You're done with the initialization of the Pi Zero for use!  
+#### Step 4 - You're done with the initialization of the Pi Zero for use!  
 
 Next you'll start programming the Pi Zero and integrating circuits.
 
 ## Writing Your Program
 
-### Program the Raspberry Pi to get sensor values and update the LED's
+### Step 1 - Program the Raspberry Pi to get sensor values and update the LED's
 
 Write a program using Python that will interact with the Pi Zero to read the parking sensor and turn on and off the appropriate lights.  Don't worry if you don't know Python.  At the end of this section, we have a link to sample code that will make it easy to get started and your coaches will help you if you get stuck.
 
@@ -69,11 +69,11 @@ Now get started by following the steps in the sample program.  Once you have tha
 
 Sample Python code for Raspberry Pi(https://raspberrypihq.com/making-a-led-blink-using-the-raspberry-pi-and-python/)
 
-### Finish the program to complete the challenge
+### Step 2 - Finish the program to complete the challenge
 
 Once you have a light blinking you should be able to enhance the program to complete a sample parking lot with 3 parking spaces.  If you want to see an example of what that looks like ask you coach to show you the sample.
 
-### Done!  (not quite)
+### Step 3 - Done!  (not quite)
 You're done with the primary assignment but if you have time follow the remaining steps to create a simple smartphone app to detect if there are parking spots available.  
 
 ## Adding Blynk
