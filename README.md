@@ -13,7 +13,7 @@ Until the new high school is built, finding available parking at UAHS will be a 
 
 Your solution will involve hardware, software, and cloud solution components. A simple curcuit will detect the presence of cars in parking spots in a model parking lot. The Raspberry Pi or Arduino will turn LED lights on or off based on the sensor data using a program you'll write. Then, with Blynk, you'll be able to see the parking lot status on your phone. Finally (if you get this far!) you'll use Alexa with Blynk to ask how many spots are available. 
 
-## Tasks
+## Hardware Set Up
 
 ### Set up Raspberry Pi 
 In the following step you're going to set up a Raspberry Pi Zero which will be the 'brains' of your solution.  This will involve a few simple steps to copy and edit files onto an SD card that will then be inserted into the Raspberry Pi and booted.  Once the Raspberry Pi boots you'll be able to log on to the Pi to start writing the program that will control the lights.
@@ -57,7 +57,9 @@ network={
 
 Next you'll start programming the Pi Zero and integrating circuits.
 
-## Program the Raspberry Pi to get sensor values and update the LED's
+## Writing Your Program
+
+### Program the Raspberry Pi to get sensor values and update the LED's
 
 Write a program using Python that will interact with the Pi Zero to read the parking sensor and turn on and off the appropriate lights.  Don't worry if you don't know Python.  At the end of this section, we have a link to sample code that will make it easy to get started and your coaches will help you if you get stuck.
 
@@ -67,11 +69,11 @@ Now get started by following the steps in the sample program.  Once you have tha
 
 Sample Python code for Raspberry Pi(https://raspberrypihq.com/making-a-led-blink-using-the-raspberry-pi-and-python/)
 
-## Finish the program to complete the challenge
+### Finish the program to complete the challenge
 
 Once you have a light blinking you should be able to enhance the program to complete a sample parking lot with 3 parking spaces.  If you want to see an example of what that looks like ask you coach to show you the sample.
 
-## Done!  (not quite)
+### Done!  (not quite)
 You're done with the primary assignment but if you have time follow the remaining steps to create a simple smartphone app to detect if there are parking spots available.  
 
 ## Adding Blynk
